@@ -1,15 +1,13 @@
 package com.expd;
 
-import com.expd.config.ConfigFactory;
-import com.expd.config.FrameworkConfig;
-import org.aeonbits.owner.ConfigCache;
+import com.expd.config.factory.ConfigFactory;
 import org.testng.annotations.Test;
 
-public class DemoTest {
+public class DemoTest extends BaseForWeb{
 
 
     @Test
     public void testLogin(){
-        System.out.println(ConfigFactory.getConfig().browser());
+
     }
 }
